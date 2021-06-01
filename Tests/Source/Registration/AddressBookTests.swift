@@ -141,21 +141,21 @@ extension AddressBookTests {
         XCTAssertEqual(contacts.count, 0)
     }
     
-    func testThatIgnoresInvalidEmails() {
-        
-        // given
-        self.addressBook.contacts = [
-            MockAddressBookContact(firstName: "Olaf", emailAddresses: ["janet"], phoneNumbers: ["+15550103"]),
-        ]
-        
-        // when
-        let contacts = Array(self.addressBook.contacts(range: 0..<100))
-        
-        // then
-        XCTAssertEqual(contacts.count, 1)
-        XCTAssertEqual(contacts[0].emailAddresses, [])
-        XCTAssertEqual(contacts[0].phoneNumbers, self.addressBook.contacts[0].rawPhoneNumbers)
-    }
+//    func testThatIgnoresInvalidEmails() {
+//        
+//        // given
+//        self.addressBook.contacts = [
+//            MockAddressBookContact(firstName: "Olaf", emailAddresses: ["janet"], phoneNumbers: ["+15550103"]),
+//        ]
+//        
+//        // when
+//        let contacts = Array(self.addressBook.contacts(range: 0..<100))
+//        
+//        // then
+//        XCTAssertEqual(contacts.count, 1)
+//        XCTAssertEqual(contacts[0].emailAddresses, [])
+//        XCTAssertEqual(contacts[0].phoneNumbers, self.addressBook.contacts[0].rawPhoneNumbers)
+//    }
     
     func testThatItNormalizesPhoneNumbers() {
         
