@@ -19,7 +19,7 @@
 import Foundation
 
 // Get FeatureFlags
-@objc
+//@objc
 public final class FeatureFlagRequestStrategy: AbstractRequestStrategy {
     
     // MARK: - Private Property
