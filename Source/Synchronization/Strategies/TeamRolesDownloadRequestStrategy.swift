@@ -41,7 +41,7 @@ fileprivate extension Team {
     
 }
 
-@objc
+//@objc
 public final class TeamRolesDownloadRequestStrategy: AbstractRequestStrategy, ZMContextChangeTrackerSource, ZMRequestGeneratorSource, ZMRequestGenerator {
     
     private (set) var downstreamSync: ZMDownstreamObjectSync!
