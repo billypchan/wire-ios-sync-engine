@@ -447,6 +447,7 @@
 		A938BDCA23A7966700D4C208 /* ConversationRoleDownstreamRequestStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938BDC923A7966700D4C208 /* ConversationRoleDownstreamRequestStrategyTests.swift */; };
 		A93B528B250101AC0061255E /* ZMUserSession+Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B528A250101AC0061255E /* ZMUserSession+Debugging.swift */; };
 		A942E91C2668E4B800459CB6 /* ZMSyncStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942E91B2668E4B800459CB6 /* ZMSyncStrategy.swift */; };
+		A942E9222668E75400459CB6 /* ZMClientRegistrationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942E9212668E75400459CB6 /* ZMClientRegistrationStatus.swift */; };
 		A958DC47266596C600FB8D26 /* OCMock.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC45266596C600FB8D26 /* OCMock.xcframework */; };
 		A958DC49266596C600FB8D26 /* WireTesting.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC46266596C600FB8D26 /* WireTesting.xcframework */; };
 		A958DC9126659A5B00FB8D26 /* WireDataModel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC8226659A5A00FB8D26 /* WireDataModel.xcframework */; };
@@ -1103,6 +1104,7 @@
 		A938BDC923A7966700D4C208 /* ConversationRoleDownstreamRequestStrategyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationRoleDownstreamRequestStrategyTests.swift; sourceTree = "<group>"; };
 		A93B528A250101AC0061255E /* ZMUserSession+Debugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZMUserSession+Debugging.swift"; sourceTree = "<group>"; };
 		A942E91B2668E4B800459CB6 /* ZMSyncStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMSyncStrategy.swift; sourceTree = "<group>"; };
+		A942E9212668E75400459CB6 /* ZMClientRegistrationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMClientRegistrationStatus.swift; sourceTree = "<group>"; };
 		A958DC45266596C600FB8D26 /* OCMock.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OCMock.xcframework; path = Carthage/Build/OCMock.xcframework; sourceTree = "<group>"; };
 		A958DC46266596C600FB8D26 /* WireTesting.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WireTesting.xcframework; path = Carthage/Build/WireTesting.xcframework; sourceTree = "<group>"; };
 		A958DC8226659A5A00FB8D26 /* WireDataModel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WireDataModel.xcframework; path = Carthage/Build/WireDataModel.xcframework; sourceTree = "<group>"; };
@@ -2030,6 +2032,7 @@
 				F9FD16791BDFCDAD00725F5C /* ZMClientRegistrationStatus.h */,
 				F992985A1BE1404D0058D42F /* ZMClientRegistrationStatus+Internal.h */,
 				F9FD167A1BDFCDAD00725F5C /* ZMClientRegistrationStatus.m */,
+				A942E9212668E75400459CB6 /* ZMClientRegistrationStatus.swift */,
 				54973A351DD48CAB007F8702 /* NSManagedObject+EncryptionContext.swift */,
 				163FB9982057E3F200E74F83 /* AuthenticationStatusProvider.swift */,
 				F9B171F51C0EF21100E6EEC6 /* ClientUpdateStatus.swift */,
@@ -3179,6 +3182,7 @@
 			files = (
 				1660AA0B1ECCAF4E0056D403 /* SearchRequest.swift in Sources */,
 				878ACB4620ADBBAA0016E68A /* Blacklist.swift in Sources */,
+				A942E9222668E75400459CB6 /* ZMClientRegistrationStatus.swift in Sources */,
 				166A8BF91E02C7D500F5EEEA /* ZMHotFix+PendingChanges.swift in Sources */,
 				166507812459D7CA005300C1 /* UserClientEventConsumer.swift in Sources */,
 				F9E577211E77EC6D0065EFE4 /* WireCallCenterV3+Notifications.swift in Sources */,
