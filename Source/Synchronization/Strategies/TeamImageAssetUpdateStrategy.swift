@@ -21,7 +21,7 @@ import WireRequestStrategy
 
 /// TeamImageAssetUpdateStrategy is responsible for downloading the image associated with a team
 
-public final class TeamImageAssetUpdateStrategy: AbstractRequestStrategy, ZMContextChangeTrackerSource {
+public final class TeamImageAssetUpdateStrategy: AbstractRequestStrategy, ZMContextChangeTrackerSource, ZMDownstreamTranscoder {
     
     fileprivate var downstreamRequestSync: ZMDownstreamObjectSyncWithWhitelist!
     fileprivate var observer: Any!
@@ -57,9 +57,9 @@ public final class TeamImageAssetUpdateStrategy: AbstractRequestStrategy, ZMCont
         return [downstreamRequestSync]
     }
 
-}
+//}
 
-extension TeamImageAssetUpdateStrategy : ZMDownstreamTranscoder {
+//extension TeamImageAssetUpdateStrategy : ZMDownstreamTranscoder {
     
     public func request(forFetching object: ZMManagedObject!, downstreamSync: ZMObjectSync!) -> ZMTransportRequest! {
         guard let team = object as? Team, let assetId = team.pictureAssetId else { return nil }

@@ -92,7 +92,7 @@ fileprivate extension Team {
 /// Responsible for downloading the team which the self user belongs to during the slow sync
 /// and for updating it when processing events or when manually requested.
     
-public final class TeamDownloadRequestStrategy: AbstractRequestStrategy, ZMContextChangeTrackerSource, ZMEventConsumer, ZMSingleRequestTranscoder {
+public final class TeamDownloadRequestStrategy: AbstractRequestStrategy, ZMContextChangeTrackerSource, ZMEventConsumer, ZMSingleRequestTranscoder, ZMDownstreamTranscoder {
 
     private (set) var downstreamSync: ZMDownstreamObjectSync!
     private (set) var slowSync: ZMSingleRequestSync!
@@ -235,9 +235,9 @@ public final class TeamDownloadRequestStrategy: AbstractRequestStrategy, ZMConte
         syncStatus.finishCurrentSyncPhase(phase: expectedSyncPhase)
     }
     
-}
+//}
 
-extension TeamDownloadRequestStrategy: ZMDownstreamTranscoder {
+//extension TeamDownloadRequestStrategy: ZMDownstreamTranscoder {
 
     public func request(forFetching object: ZMManagedObject!, downstreamSync: ZMObjectSync!) -> ZMTransportRequest! {
         guard downstreamSync as? ZMDownstreamObjectSync == self.downstreamSync, let team = object as? Team else { fatal("Wrong sync or object for: \(object.safeForLoggingDescription)") }
