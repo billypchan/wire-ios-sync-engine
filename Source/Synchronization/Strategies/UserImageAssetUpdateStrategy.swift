@@ -36,7 +36,8 @@ internal enum AssetTransportError: Error {
     }
 }
 
-@objc public final class UserImageAssetUpdateStrategy: AbstractRequestStrategy {
+//@objc
+public final class UserImageAssetUpdateStrategy: AbstractRequestStrategy {
     internal let requestFactory = AssetRequestFactory()
     internal var upstreamRequestSyncs = [ProfileImageSize : ZMSingleRequestSync]()
     internal var deleteRequestSync: ZMSingleRequestSync?
