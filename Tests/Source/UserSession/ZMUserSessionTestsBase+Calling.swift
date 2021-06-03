@@ -24,6 +24,26 @@ import XCTest
 extension ZMUserSessionTestsBase {
     
     @objc
+    func createSut(userId: UUID) {
+        let mockStrategyDirectory = MockStrategyDirectory()
+        let mockUpdateEventProcessor = MockUpdateEventProcessor()
+        sut = ZMUserSession(
+            userId: userId,
+            transportSession: transportSession,
+            mediaManager: mediaManager,
+            flowManager: flowManagerMock,
+            analytics: nil,
+            eventProcessor: mockUpdateEventProcessor,
+            strategyDirectory: mockStrategyDirectory,
+            syncStrategy: nil,
+            operationLoop: nil,
+            application: application,
+            appVersion: "00000",
+            coreDataStack: coreDataStack,
+            configuration: ZMUserSession.Configuration.defaultConfig)
+    }
+    
+    @objc
     public func createCallCenter() -> WireCallCenterV3Mock {
         let selfUser = ZMUser.selfUser(in: self.syncMOC)
         return WireCallCenterV3Factory.callCenter(withUserId: selfUser.remoteIdentifier!, clientId: selfUser.selfClient()!.remoteIdentifier!, uiMOC: uiMOC, flowManager: FlowManagerMock(), transport: WireCallCenterTransportMock()) as! WireCallCenterV3Mock
