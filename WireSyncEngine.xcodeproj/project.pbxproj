@@ -462,12 +462,12 @@
 		A958DCA726659A5B00FB8D26 /* WireUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC8D26659A5B00FB8D26 /* WireUtilities.xcframework */; };
 		A958DCA926659A5B00FB8D26 /* HTMLString.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC8E26659A5B00FB8D26 /* HTMLString.xcframework */; };
 		A958DCAB26659A5B00FB8D26 /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC8F26659A5B00FB8D26 /* PINCache.xcframework */; };
-		A958DCAD26659A5C00FB8D26 /* WireMockTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC9026659A5B00FB8D26 /* WireMockTransport.xcframework */; };
 		A958DCB926659C2900FB8D26 /* avs.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DCB826659C2900FB8D26 /* avs.xcframework */; };
 		A95D0B1223F6B75A0057014F /* AVSLogObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D0B1123F6B75A0057014F /* AVSLogObserver.swift */; };
 		A9692F8A1986476900849241 /* NSString_NormalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9692F881986476900849241 /* NSString_NormalizationTests.m */; };
 		A99EE1722666352500E713FC /* IntegrationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FF47431F0BF5C70044C491 /* IntegrationTest.swift */; };
 		A9B53AAA24E12E240066FCC6 /* ZMAccountDeletedReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B53AA924E12E240066FCC6 /* ZMAccountDeletedReason.swift */; };
+		A9DEC31126692496005B502B /* WireMockTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A958DC9026659A5B00FB8D26 /* WireMockTransport.xcframework */; };
 		AF6415A41C9C17FF00A535F5 /* EncryptedBase64EncondedExternalMessageTestFixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF6415A01C9C151700A535F5 /* EncryptedBase64EncondedExternalMessageTestFixture.txt */; };
 		AF6415A51C9C180200A535F5 /* ExternalMessageTextFixture.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF6415A11C9C151700A535F5 /* ExternalMessageTextFixture.txt */; };
 		BF00441B1C737CE9007A6EA4 /* PushNotificationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00441A1C737CE9007A6EA4 /* PushNotificationStatus.swift */; };
@@ -1388,6 +1388,7 @@
 			files = (
 				544BA1571A43424F00D3B852 /* WireSyncEngine.framework in Frameworks */,
 				A958DC49266596C600FB8D26 /* WireTesting.xcframework in Frameworks */,
+				A9DEC31126692496005B502B /* WireMockTransport.xcframework in Frameworks */,
 				A958DC47266596C600FB8D26 /* OCMock.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1407,7 +1408,6 @@
 				A958DCB926659C2900FB8D26 /* avs.xcframework in Frameworks */,
 				A958DC9526659A5B00FB8D26 /* WireTransport.xcframework in Frameworks */,
 				A958DC9326659A5B00FB8D26 /* WireSystem.xcframework in Frameworks */,
-				A958DCAD26659A5C00FB8D26 /* WireMockTransport.xcframework in Frameworks */,
 				A958DC9726659A5B00FB8D26 /* libPhoneNumber.xcframework in Frameworks */,
 				A958DC9926659A5B00FB8D26 /* WireLinkPreview.xcframework in Frameworks */,
 				A958DCAB26659A5B00FB8D26 /* PINCache.xcframework in Frameworks */,
