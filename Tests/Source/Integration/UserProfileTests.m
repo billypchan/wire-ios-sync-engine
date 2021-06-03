@@ -129,6 +129,7 @@
     XCTAssertEqualObjects(selfUser.phoneNumber, @"");
     
     id userObserver = [OCMockObject mockForProtocol:@protocol(ZMUserObserver)];
+    ///TODO: addObserver not found
     id userObserverToken = [UserChangeInfo addObserver:userObserver forUser:selfUser inUserSession:self.userSession];
     
     id editableUserObserver = [OCMockObject mockForProtocol:@protocol(UserProfileUpdateObserver)];

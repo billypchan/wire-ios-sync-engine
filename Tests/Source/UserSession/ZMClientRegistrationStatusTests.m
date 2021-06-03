@@ -157,6 +157,7 @@
     XCTAssertEqual(self.sut.currentPhase, ZMClientRegistrationPhaseRegistered);
 }
 
+///TODO convert to Swift
 - (void)testThatItReturns_FetchingClients_WhenReceivingAnErrorWithTooManyClients
 {
     // given
