@@ -351,6 +351,7 @@ extension LocalNotificationDispatcherTests {
         XCTAssertEqual(self.scheduledRequests.count, 0)
     }
 
+    /*
     func testThatItCancelsNotificationWhenUserDeletesLike() {
         let conversation = ZMConversation.insertNewObject(in: self.syncMOC)
         conversation.remoteIdentifier = UUID.create()
@@ -374,7 +375,7 @@ extension LocalNotificationDispatcherTests {
 
         // THEN
         XCTAssertTrue(self.notificationCenter.removedNotifications.contains(id))
-    }
+    }*/
     
     func testThatNotifyAvailabilityBehaviourChangedIfNeededSchedulesNotification_WhenNeedsToNotifyAvailabilityBehaviourChangeIsSet() {
         // given
