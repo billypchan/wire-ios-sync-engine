@@ -1126,6 +1126,8 @@
 		A9692F881986476900849241 /* NSString_NormalizationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_NormalizationTests.m; sourceTree = "<group>"; };
 		A97E4F55267CF681006FC545 /* ZMUserSessionTestsBase+ZMUserSessionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZMUserSessionTestsBase+ZMUserSessionConfiguration.swift"; sourceTree = "<group>"; };
 		A97E4F5A267CFB2D006FC545 /* ZMUserSessionTests_NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMUserSessionTests_NetworkState.swift; sourceTree = "<group>"; };
+		A9A0191E268F1F1900330320 /* ZMOperationLoopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMOperationLoopTests.h; sourceTree = "<group>"; };
+		A9A0191F268F1F1900330320 /* ZMSyncStrategyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMSyncStrategyTests.h; sourceTree = "<group>"; };
 		A9A2393E268DEC3C004B1C22 /* avs.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = avs.xcframework; path = Carthage/Build/avs.xcframework; sourceTree = "<group>"; };
 		A9A2393F268DEC3C004B1C22 /* HTMLString.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HTMLString.xcframework; path = Carthage/Build/HTMLString.xcframework; sourceTree = "<group>"; };
 		A9A23940268DEC3C004B1C22 /* PINCache.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINCache.xcframework; path = Carthage/Build/PINCache.xcframework; sourceTree = "<group>"; };
@@ -2290,6 +2292,8 @@
 				54A170661B300700001B41A5 /* Strategies */,
 				85D85104C6D06FA902E3253C /* ZMSyncStrategyTests.m */,
 				85D858D72B109C5D9A85645B /* ZMOperationLoopTests.m */,
+				A9A0191E268F1F1900330320 /* ZMOperationLoopTests.h */,
+				A9A0191F268F1F1900330320 /* ZMSyncStrategyTests.h */,
 				F95ECF501B94BD05009F91BA /* ZMHotFixTests.m */,
 				F11E35D52040172200D4D5DB /* ZMHotFixTests.swift */,
 				F132C113203F20AB00C58933 /* ZMHotFixDirectoryTests.swift */,
