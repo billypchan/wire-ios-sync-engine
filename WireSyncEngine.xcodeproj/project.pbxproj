@@ -187,7 +187,6 @@
 		169BA21F25ED0FB400374343 /* ConversationTests+Deletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16519D5B231EA13A00C9D76D /* ConversationTests+Deletion.swift */; };
 		169BA22025ED0FB900374343 /* ConversationTests+ClearingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBF6F5246EF65600A26626 /* ConversationTests+ClearingHistory.swift */; };
 		169BA22125ED0FBD00374343 /* ConversationTests+LastRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBF6F2246EF28800A26626 /* ConversationTests+LastRead.swift */; };
-		169BA22225ED0FC100374343 /* ConversationTests+Reactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBF6F7246EF67400A26626 /* ConversationTests+Reactions.swift */; };
 		169BA22325ED0FC400374343 /* ConversationTests+Archiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBF6EF246ECB2400A26626 /* ConversationTests+Archiving.swift */; };
 		169BA22425ED0FC900374343 /* ConversationTests+Participants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16904A83207E078C00C92806 /* ConversationTests+Participants.swift */; };
 		169BA22525ED0FCE00374343 /* ConversationTests+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BBF6EC246EB56B00A26626 /* ConversationTests+List.swift */; };
@@ -530,7 +529,6 @@
 		EE1DEBC723D5F1F30087EE1F /* NSManagedObjectContext+TypingUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1DEBC523D5F1D00087EE1F /* NSManagedObjectContext+TypingUsers.swift */; };
 		EE419B58256FEA3D004618E2 /* ZMUserSession.Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE419B57256FEA3D004618E2 /* ZMUserSession.Configuration.swift */; };
 		EE5BF6351F8F907C00B49D06 /* ZMLocalNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5BF6341F8F907C00B49D06 /* ZMLocalNotificationTests.swift */; };
-		EE5BF6371F8F9D6100B49D06 /* ZMLocalNotificationTests_Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5BF6361F8F9D6100B49D06 /* ZMLocalNotificationTests_Event.swift */; };
 		EE5FEF0521E8948F00E24F7F /* ZMUserSession+DarwinNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEF0421E8948F00E24F7F /* ZMUserSession+DarwinNotificationCenter.swift */; };
 		EE6654642445D4EE00CBF8D3 /* MockAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6654632445D4EE00CBF8D3 /* MockAddressBook.swift */; };
 		EE95DECD247C0049001EA010 /* SessionManagerConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE95DECC247C0049001EA010 /* SessionManagerConfigurationTests.swift */; };
@@ -2996,7 +2994,6 @@
 				169BA20225ED0F0600374343 /* UserRichProfileIntegrationTests.swift in Sources */,
 				169BA20925ED0F4A00374343 /* IsTypingTests.swift in Sources */,
 				169BA20A25ED0F5000374343 /* BackgroundTests.m in Sources */,
-				169BA22225ED0FC100374343 /* ConversationTests+Reactions.swift in Sources */,
 				06EF5187266E445F0073920F /* ConversationTests+Join.swift in Sources */,
 				169BA1ED25ECEA9A00374343 /* OperationLoopNewRequestObserver.swift in Sources */,
 				169BA1FB25ED0CB200374343 /* MockPushChannel.swift in Sources */,
@@ -3090,7 +3087,6 @@
 				F9410F631DE44C2E007451FF /* TypingStrategyTests.swift in Sources */,
 				EE5BF6351F8F907C00B49D06 /* ZMLocalNotificationTests.swift in Sources */,
 				169BA25225EF778E00374343 /* TestUserProfileUpdateObserver.swift in Sources */,
-				EE5BF6371F8F9D6100B49D06 /* ZMLocalNotificationTests_Event.swift in Sources */,
 				BF50CFA71F39ACE8007833A4 /* MockUserInfoParser.swift in Sources */,
 				5E0EB1F92100A46F00B5DC2B /* MockCompanyLoginRequesterDelegate.swift in Sources */,
 				169BA24C25EF753100374343 /* MockReachability.swift in Sources */,
